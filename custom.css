@@ -1,0 +1,180 @@
+:root{
+    --blue: #095198;
+    --white: #f8f9fa;
+    --orange:#f18e0b;
+    --blackblue:#0f0c2e05;
+    --gray:#373b3f;
+    --lightgray:#72717911;
+}
+.conh{
+    background-color: var(--gray);
+    margin-top: 0%;
+
+}
+
+.bg-blue{
+    background-color: var(--blue);
+    position:relative;
+}
+.font-white{
+    color:var(--white);
+    transition: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.hero{
+    margin-left: 20%;
+}
+.herop{
+    font-size: xx-large;
+    margin-left: 20%;
+}
+.hrO{
+    border:none;
+    height: 10px;
+    background-color: var(--orange);
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.bkf{
+    background-color: var(--white);
+    
+}
+.progre{
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.porce{
+    align-content: right;
+
+}
+.p_lenguaje{
+    margin-left: 20px;
+    font-weight: 500%;
+
+}
+.herot{
+    margin-left: 20%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: xx-large;
+}
+.hab{
+    font-size: x-large;
+}
+.h2a{
+    align-content: center;
+}
+h2 {
+    font-weight: bold;
+}
+.highlight {
+    color: var(--orange);
+}
+.section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.job-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.job-period {
+    font-size: 0.9rem;
+    color: var(--gray);
+}
+.sec{
+    margin-left: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.as{
+    margin-left: 10%;
+    font-size: xx-large;
+    font-weight: 1000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.sec{
+    margin-bottom: 1%;
+}
+.pa{
+    color:var(--white);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.sech{
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.secti{
+    margin-left: 10%;
+}
+.a{
+    font-size: xx-large;
+    font-weight: 1000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.b{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.c{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.butt{
+    margin-top: 2%;
+    background-color: var(--orange);
+    color: var(--white)
+}
+.forc{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media (max-width: 768px){
+    .job-title{
+        font-size: 3.25rem;
+    }
+}
+@media (max-width: 700px){
+    .conth{
+        margin-left: 20%;
+    }
+    .habh{
+        margin-left: 15%;
+    }
+    .pp{
+        font-size: 19px;
+    }
+    .herot
+    {
+        font-size:20px;
+    }
+    .btt{
+        font-size: 10px;
+    }
+    .a{
+        font-size: 30px;
+    }
+    .n{
+        margin-left: 0%;
+    }
+    .ni{
+        font-size: 1%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .nt{
+        margin-left:10% ;
+    }
+}
+@media(max-width:300px){
+    .n{
+        margin-left:0px ;
+    }
+}
