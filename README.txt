@@ -15,10 +15,11 @@ git clone https://github.com/IgnacioSaAn/static-website2.git
 
 Luego de clonar los repos dentro del directorio nuevo lo que debemos hace es levantar lo que vendria siendo minikube, nos volvemos al directorio principal y realizamos el siguiente script
 
-minikube start --mount --mount-string="/home/inachi/TD5D/static-website:/mnt/web"
+minikube start --mount --mount-string="/home/inachi/TD5D/static-website2:/mnt/web"
 #El primer directorio debe ser el directorio en el que se encuentre tu carpeta con el HTML
 
-Luego de levantar la maquina lo unico que nos queda es aplicar nuestros manifiestos por lo que deberemos hacer cd hasta la carpeta donde se encuentran los mismo.
+Luego de levantar la maquina lo unico que nos queda es aplicar nuestros manifiestos por lo que deberemos hacer cd hasta la carpeta donde se encuentran los mismos.
+Aplicá todos los manifiestos excepto los de la carpeta ingress
 
 Ya dentro de la misma debemos poner: "kubectl apply -f ." 
 
@@ -36,6 +37,9 @@ SI QUERES SUMARLE UN PLUS DE AGREGARLE FUNCIONALIDAD AL ARCHIVO INGRESS HACE EST
 minikube addons enable ingress (es normal que tarde)
 
 Ya habilito el addon, nos sigue conseguir la ip de minikube: "minikube ip"
+
+Iremos a la carpeta del manifiesto ingress que se encuentra dentro de manifiestosTD5
+y haremos: "kubectl apply -f ."
 
 luego nos queda decirle a la maquina que no solo se va a poder acceder desde el puesto, sino tambien por un url propio:
 echo "$(resultado de minikube ip) local.service" | sudo tee -a /etc/hosts
