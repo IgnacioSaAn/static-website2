@@ -9,7 +9,7 @@ Luego de haber descargado todo lo que debemos hacer es crear una carpeta dentro 
 Ya dentro de esta debemos realizar:
 git init
 git clone https://github.com/IgnacioSaAn/manifiestosTD5.git
-git clone https://github.com/IgnacioSaAn/static-website.git
+git clone https://github.com/IgnacioSaAn/static-website2.git
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -39,6 +39,8 @@ Ya habilito el addon, nos sigue conseguir la ip de minikube: "minikube ip"
 
 luego nos queda decirle a la maquina que no solo se va a poder acceder desde el puesto, sino tambien por un url propio:
 echo "$(resultado de minikube ip) local.service" | sudo tee -a /etc/hosts
+Si no te funciona este comando podes probar sacandole el signo $ y los parentesis
+echo "resultado de minikube ip local.service" | sudo tee -a /etc/hosts
 
 si queres probar si funciona pone en el buscador lo siguiente: http://local.service/
 
