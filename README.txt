@@ -49,3 +49,7 @@ echo "resultado de minikube ip local.service" | sudo tee -a /etc/hosts
 si queres probar si funciona pone en el buscador lo siguiente: http://local.service/
 
 ¡¡FELICIDADES LEVANTASTE TU PRIMER SERVICIO CON KUBERNETES Y UN INGRESS!!
+
+######IMPORTANTE#####
+Luego de haber hecho el TD y finalizarlo debemos realizar el siguiente comando para que minikube no siga corriendo y nos ocupe recursos:
+minikube delete
